@@ -1,11 +1,11 @@
 Summary:	Shared color profiles to be used in color management aware applications
 Name:		shared-color-profiles
-Version:	0.1.3
+Version:	0.1.4
 Release:	1
 License:	GPL v2+ and Public Domain and zlib and MIT
 Group:		Libraries
 Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.gz
-# Source0-md5:	878e4a4f94b29cf0a9a551d1cf7d6569
+# Source0-md5:	cec4038c757ac7d23c573888d8d2fa77
 URL:		http://github.com/hughsie/shared-color-profiles
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
