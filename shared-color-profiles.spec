@@ -22,13 +22,6 @@ obsługujących zarządzanie kolorami.
 %prep
 %setup -q
 
-cp -p profiles/Argyll/LICENSE LICENSE.Argyll
-cp -p profiles/Argyll/README README.Argyll
-cp -p profiles/Oysonar/LICENSE LICENSE.Oysonar
-cp -p profiles/Oysonar/README README.Oysonar
-cp -p profiles/Yamma/LICENSE LICENSE.Yamma
-cp -p profiles/Yamma/README README.Yamma
-
 %build
 %configure
 %{__make}
@@ -44,7 +37,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS LICENSE.* NEWS README*
+%doc AUTHORS NEWS README
 %{_datadir}/color/icc/AdobeGammaTest.icm
 %{_datadir}/color/icc/Argyll
 %{_datadir}/color/icc/FakeBRG.icc
