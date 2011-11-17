@@ -28,8 +28,8 @@ obsługujących zarządzanie kolorami.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 %{__make} install \
+	INSTALL="install -p" \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
