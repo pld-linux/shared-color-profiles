@@ -29,7 +29,8 @@ obsługujących zarządzanie kolorami.
 
 %build
 %configure
-%{__make}
+# colprof hogs so much memory during build we need to dosable parallel build
+%{__make} -j1
 
 %install
 rm -rf $RPM_BUILD_ROOT
