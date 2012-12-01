@@ -29,7 +29,7 @@ obsługujących zarządzanie kolorami.
 
 %build
 %configure
-# colprof hogs so much memory during build we need to dosable parallel build
+# colprof hogs so much memory during build we need to disable parallel build
 %{__make} -j1
 
 %install
