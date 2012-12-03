@@ -11,7 +11,7 @@ Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.ta
 # Source0-md5:	f81b3316a3052a99784d01205425be88
 URL:		http://github.com/hughsie/shared-color-profiles
 BuildRequires:	argyllcms
-BuildRequires:	colord
+BuildRequires:	colord >= 0.1.25
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 BuildArch:	noarch
