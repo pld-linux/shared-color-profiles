@@ -1,4 +1,5 @@
-# NOTE: building profiles takes a lot of time
+# NOTE: building profiles takes a lot of time and RAM
+#	requires system dbus running to build
 Summary:	Shared color profiles to be used in color management aware applications
 Summary(pl.UTF-8):	Współdzielone profile kolorów dla aplikacji obsługujących zarządzanie kolorami
 Name:		shared-color-profiles
