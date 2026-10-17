@@ -4,7 +4,7 @@ Summary:	Shared color profiles to be used in color management aware applications
 Summary(pl.UTF-8):	Współdzielone profile kolorów dla aplikacji obsługujących zarządzanie kolorami
 Name:		shared-color-profiles
 Version:	0.1.6
-Release:	1
+Release:	2
 License:	Free (Public Domain, CC-BY-SA, CC-BY-ND, zlib, MIT - depending on profile)
 Group:		Libraries
 Source0:	http://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
